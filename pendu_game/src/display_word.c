@@ -7,7 +7,7 @@ void	display_word(char *tab, int len)
 	i = 0;
 	while (i < len)
 	{
-		printf ("%c", tab[i]);
+		printf ("\033[1;36m%c\033[0m", tab[i]);
 		i++;
 	}
 	printf ("\n");

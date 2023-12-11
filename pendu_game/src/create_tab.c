@@ -9,7 +9,7 @@ char	*create_tab(int len)
 	i = 0;
 	while (i < len)
 	{
-		tab[i] = '_';
+		tab[i] = '*';
 		i++;
 	}
 	tab[i] = '\0';
